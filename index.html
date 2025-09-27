@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pratiksha Anil Bhalerao | MCA Student </title>
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  />
+   <link href="style.css" rel="stylesheet" />
+    <script type="text/javascript" src="script.js"></script>
+   
+</head>
+<body>
+  <header id="home">
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Hi, I'm Pratiksha</h1>
+      <p>MCA Student | Aspiring Developer | Lifelong Learner</p>
+     <!-- <button onclick="scrollToSection('projects')">View My Work</button>-->
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          I’m currently pursuing MCA and passionate about software development,
+          data structures, algorithms, and building modern web apps. I love to
+          learn new technologies and solve problems through code.
+        </p>
+        <p>
+           I've been learning web development since my graduation years.Now  I am exploring advanced web technologies
+           like react,php,nodejs, etc.
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="images/img.jpg" alt="Your Photo" />
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill">
+        <h3>Web Technologies</h3>
+        <div class="skill-bar"><div class="skill-level" data-level="80%"></div></div>
+      </div>
+      <div class="skill">
+        <h3>Pl/SQL</h3>
+        <div class="skill-bar"><div class="skill-level" data-level="70%"></div></div>
+      </div>
+      <div class="skill">
+        <h3>HTML & CSS</h3>
+        <div class="skill-bar"><div class="skill-level" data-level="90%"></div></div>
+      </div>
+      <div class="skill">
+        <h3>JavaScript</h3>
+        <div class="skill-bar"><div class="skill-level" data-level="75%"></div></div>
+      </div>
+      <!-- add more skills as needed -->
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="images/weatherlondon.png" alt="Project 1 Screenshot" />
+        <div class="project-info">
+          <h3>Weather now</h3>
+          <p>
+            Description: A responsive webpage that fetches and displays live weather data from a public API. The project demonstrates 
+            how to dynamically load, update, and present weather information using JavaScript, HTML, and CSS.
+          </p>
+          <a href="https://github.com/pratiksha9994/weather-now" target="_blank">GitHub Link</a>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="project-card">
+        
+        <img src="home/project2.png" alt="Project 2 Screenshot" />
+      <!--  <img src="home1/project2.png" alt="Project 2 Screenshot" />--->
+      <!---- <img src="home2/project2.png" alt="Project 2 Screenshot" />-->
+       <!-- <img src="home3/project2.png" alt="Project 2 Screenshot" />--->
+        
+        <div class="project-info">
+          <h3>School Landing Page</h3>
+          <p>
+            Description: This portfolio website built using HTML, CSS, JS. I
+            included skills animations, smooth scroll, and responsive layout.
+          </p>
+          <a href="https://github.com/pratiksha9994/SCHOOL" target="_blank"
+            >GitHub Link</a
+          >
+        </div>
+      </div>
+      <!-- Add more project cards similarly -->
+    </div>
+  </section>
+
+  <section id="education" class="section">
+    <h2>Education & Certifications</h2>
+    <div class="education-list">
+      <div class="edu-item">
+        <h3>MCA</h3>
+        <p>K K WAGH COLLEGE OF EDUCTAION AND RESEARCH, NASHIK | 2024– 2026</p>
+      </div>
+      <div class="edu-item">
+        <h3><BBA-CA></BBA-CA></h3>
+        <p>K J SOMAIYA COLLEGE , KOPARGOAN| 2018 – 2021</p>
+      </div>
+      <div class="edu-item">
+        <h3>Certifications/courses</h3>
+        <p>Data Analytics using SQL  — Internshala Trainings 
+             
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <div class="contact-content">
+      <div class="contact-info">
+        <p>Email: pratiksha.kkwmca@example.com</p>
+        <p>GitHub: <a href="https://github.com/pratiksha9994" target="_blank">pratiksha9994</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/pratikshabhalerao2025" target="_blank">Pratiksha B</a></p>
+      </div>
+      <div class="contact-form">
+        <form id="contactForm">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© <span id="currentYear"></span> Pratiksha. All rights reserved.</p>
+    <a href="#home" class="back-to-top">Back to Top</a>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
